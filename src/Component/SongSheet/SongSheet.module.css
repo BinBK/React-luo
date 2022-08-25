@@ -1,0 +1,31 @@
+.songSheet{
+    width: 100%;
+    margin: 20px 0;
+    min-width: 960px;
+}
+
+.sTitle{
+    width: 100%;
+}
+.sTitle h1{
+    color: red;
+    text-align: left;
+}
+.songSheet ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.songSheet li{
+    width: 160px;
+    overflow: hidden;
+}
+.songSheet li:hover{
+    color: red;
+    cursor: pointer;
+}
+.songSheet img{
+    width: 160px;
+    height: 160px;
+    border-radius: 15px;
+}

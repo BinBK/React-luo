@@ -1,0 +1,20 @@
+.myItem{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 70px;
+    margin-bottom: 15px;
+}
+.myItem img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    float: left;
+}
+.myItem p{
+    line-height: 70px;
+    font-size: 20px;
+}
+.myItem:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
