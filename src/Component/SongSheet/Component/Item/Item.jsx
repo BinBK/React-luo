@@ -9,7 +9,7 @@ export default function Item() {
   const [song2, setSong2] = useState({ songs: [] });
   useEffect(() => {
     async function loadData() {
-      await fetch("http://124.223.37.254:3000/song/detail?ids=" + item.id)
+      await fetch("/song/detail?ids=" + item.id)
         .then((res) => res.json())
         .then((data) => {
           console.log(data);

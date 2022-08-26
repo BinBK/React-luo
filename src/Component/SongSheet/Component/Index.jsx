@@ -17,7 +17,7 @@ export default function Index() {
  
   useEffect(() => {
     async function loadSheet() {
-      await fetch("http://124.223.37.254:3000/playlist/detail?id=" + id)
+      await fetch("/playlist/detail?id=" + id)
         .then((res) => res.json())
         .then((data) => {
           console.log(data);

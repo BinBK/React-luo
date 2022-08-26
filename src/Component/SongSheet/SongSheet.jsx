@@ -8,7 +8,7 @@ export default function SongSheet() {
   const [songSheet, setSongSheet] = useState({ result: [] });
   useEffect(() => {
     async function loadSheet() {
-      await fetch("http://124.223.37.254:3000/personalized?limit=18")
+      await fetch("/personalized?limit=18")
         .then((res) => res.json())
         .then((data) => {
           // console.log(data);

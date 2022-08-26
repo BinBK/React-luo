@@ -1,5 +1,5 @@
 {
-  "proxy":"http://124.223.37.254:3000",
+  "proxy":"http://www.codeman.ink:3000",
   "name": "react-luo",
   "version": "0.1.0",
   "private": true,
